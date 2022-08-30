@@ -1,0 +1,20 @@
+[{"Input":
+    {"Length":4,"GuessedLetters":["o"],"WrongLetters":["a","e"],"PlacedLetters":{"0":"t", "3":"p"}},
+    "Expected":
+        [{"Word":"trop","Probability":100}]
+},
+{"Input":
+    {"Length":8,"GuessedLetters":["n"],"WrongLetters":["e","r"],"PlacedLetters":{"0":"s", "1":"o", "3":"u", "4":"t"}},
+    "Expected":
+        [{"Word":"solution","Probability":100}]
+},
+{"Input":
+    {"Length":4,"GuessedLetters":[],"WrongLetters":[],"PlacedLetters":{"0":"g", "3":"f"}},
+    "Expected":
+        [{"Word":"golf","Probability":100}]
+},
+{"Input":
+    {"Length":9,"GuessedLetters":["n","p"],"WrongLetters":["i","t"],"PlacedLetters":{"0":"c", "5":"a", "8":"e"}},
+    "Expected":
+        [{"Word":"champagne","Probability":100}]
+}]
